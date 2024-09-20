@@ -11,6 +11,5 @@ public class IteratorTest {
             for (LocalDate date : DateRangeIterator.getDateRange(start, end)) {
                 System.out.println(date);
             }
-
     }
 }
